@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color: midnightblue;
 }
@@ -45,4 +49,8 @@ img{
 }
 section{
     color: aliceblue;
+}
+header{
+    color: aliceblue;
+    
 }
