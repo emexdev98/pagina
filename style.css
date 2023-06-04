@@ -1,0 +1,8 @@
+*{
+    background-color: darkslategray;
+}
+.menu{
+    color: aliceblue;
+    display: flex;
+    text-align: right;
+}
