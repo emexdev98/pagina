@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 body{
     background-color: midnightblue;
@@ -23,7 +24,7 @@ a{
     text-decoration: none;
 }
 nav a:hover{
-    color: black;
+    color:midnightblue;
 }
 nav{
     background-color:black;
