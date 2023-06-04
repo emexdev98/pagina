@@ -1,6 +1,7 @@
 body{
     background-color: midnightblue;
 }
+
 ul{
 
     display: flex;
@@ -11,6 +12,7 @@ align-items: center;
 padding: 16px;
 font-family: sans-serif;
 
+
 }
 a{
     color: aliceblue;
@@ -18,4 +20,26 @@ a{
 }
 nav a:hover{
     color: black;
+}
+nav{
+    background-color:black;
+   border-radius: 9px;
+   
+}
+.menu{
+    border: 2px;
+    border-color: red;
+}
+img{
+    width: 210px;
+    height: 210px;
+
+    border-radius: 500px;
+    text-align: right;
+
+    
+}
+.center{
+    text-align: center;
+    padding: 18px;
 }
