@@ -7,7 +7,8 @@ body{
     background-color: midnightblue;
 }
 
-ul{
+ul, .dropbtn{
+
 
     display: flex;
     justify-content: space-between;
@@ -23,18 +24,17 @@ a{
     color: aliceblue;
     text-decoration: none;
 }
-nav a:hover{
+li a:hover{
     color:midnightblue;
 }
 nav{
+
     background-color:black;
    border-radius: 9px;
    
 }
-.menu{
-    border: 2px;
-    border-color: red;
-}
+
+
 header img{
     width: 200px;
     height: 200px;
@@ -84,6 +84,31 @@ section {
 header h1, h2{
     text-align: center;
 }
+
+
+li .dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 150px;
+    background: transparent;
+
+}
+.dropdown-content a{
+    color:aliceblue;
+    display: block;
+    text-align: left;
+    border: 2px solid black;
+}
+.dropdown-content:hover a:hover{
+    color: white;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
 
 
 
