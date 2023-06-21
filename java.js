@@ -1,16 +1,17 @@
-function realParaDolar(real,cotacaoDolar){
-    return real * cotacaoDolar;
-}
+function quedia(){
+    var dia= new Date().getDay();
 
+    switch (dia){
+        case (2):
+            document.getElementById("teste").innerHTML="Hoje é Terça-feira."
+            break;
+            case (3):
+             document.getElementById("teste").innerHTML="Hoje é Quarta-feira"
+            default:
+                document.getElementById("teste").innerHTML= "Não sei que dia é hoje.."
 
-var ValorReal=0.29;
-var cotacao=4.81;
+    }
 
-var total=realParaDolar(ValorReal,cotacao);
+    
 
-document.getElementById("texto").innerHTML=total
-
-
-function alertahello(){
-    alert("Olá pissual")
 }
