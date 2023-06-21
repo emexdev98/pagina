@@ -1,20 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
+    padding: 0;
+    margin: 0;
+    
 
     background-color:darkgray;
 }
-#teste{
-    text-align: center;
-    font-size: 55px
+.dia{  
+   text-align: center;
+   display: block;
+   padding-top: 200px;
 }
-#cor{
-    display: flex;
-    margin-left:398px;
-    font-size: 55px;
-}
-button{
-    display: flex;
-    margin-left:398px;
-    font-size: 55px;
-    align-items: center;
-}
+.dia p{
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
 
+    
+}
