@@ -23,3 +23,6 @@ main h1{
     font-family: 'Bebas Neue', sans-serif;
 
 }
+nav a{
+    display: inline-block;
+}
