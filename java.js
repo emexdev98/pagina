@@ -7,6 +7,7 @@ function quedia(){
             break;
             case (3):
              document.getElementById("teste").innerHTML="Hoje é Quarta-feira"
+            break;
             default:
                 document.getElementById("teste").innerHTML= "Não sei que dia é hoje.."
 
