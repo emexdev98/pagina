@@ -62,11 +62,16 @@ ul{
     justify-content: space-around;
     list-style-type: none;
     align-items: center;
-    background-color: rgb(13, 48, 94);
+    background-color: #0d305e;
     margin-top: -1px;
     border-radius: 2px;
 
 }
 nav a:hover{
     color: red;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    color: #0d305e;
 }
