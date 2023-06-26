@@ -1,0 +1,14 @@
+.start{
+    display: inline-block;
+    background-color: green;
+    height: 200px;
+    margin-left: 50%;
+    color: aliceblue;
+  
+}
+.stop{
+    margin-left: 50%;
+   background-color: red;
+    height: 200px;
+    color: aliceblue;
+}
