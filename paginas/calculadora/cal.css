@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+
+}
+header h1{
+    
+    text-align: center;
+}
+.calculo{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.calculo input{
+    width: 359px;
+    height: 40px;
+    border:1px solid black;
+}
+
+.btns{
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    grid-template-columns:  repeat(4, 90px);
+    grid-template-rows: minmax(120px, auto) repeat(5,100px);
+ }
+
+ .btns button{
+    cursor: pointer;
+    font-size: 2rem;
+    border:1px solid
+ }
+ .btns button:hover{
+    color: red;
+ }
