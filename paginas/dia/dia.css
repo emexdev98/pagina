@@ -20,4 +20,10 @@ h1{
 }
 button{
     border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+header p{
+    text-align: center;
+    font-size: 60px;
 }
