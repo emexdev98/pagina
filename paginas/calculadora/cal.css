@@ -28,13 +28,16 @@ header h1{
     min-height: 100vh;
     grid-template-columns:  repeat(4, 90px);
     grid-template-rows: minmax(120px, auto) repeat(5,100px);
+    
  }
 
  .btns button{
+   
+    
     cursor: pointer;
     font-size: 2rem;
     border:1px solid
  }
  .btns button:hover{
-    color: red;
+    background-color:gray;
  }
