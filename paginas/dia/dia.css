@@ -4,14 +4,14 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(42, 42, 109);
+    background-color: gray
 }
 h1{
     text-align: center;
     font-size: 60px;
     border: 2px solid black;
     border-radius: 50px;
-    color: aliceblue;
+    color: #0d305e;
 }
 .buttondia{
     display: flex;
@@ -22,10 +22,13 @@ button{
     border: none;
     border-radius: 10px;
     height: 40px;
+    background-color: #0d305e;
+    color: aliceblue;
 }
 header p{
     text-align: center;
     font-size: 60px;
+    color: #0d305e;
 }
 nav a{
     border: 1px solid black;
