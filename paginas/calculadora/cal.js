@@ -1,11 +1,13 @@
 function appendValue(value){
-    document.getElementById("result").value += value;
+    document.getElementById("resulttop").value += value;
 
 }
+
 function calculate(){
-    var result= eval(document.getElementById("result").value);
-    document.getElementById("result").value=result;
+    var result= eval(document.getElementById("resulttop").value);
+    document.getElementById("resultdown").value=result;
 }
 function clearresult(){
-    document.getElementById("result").value= "";
+    document.getElementById("resulttop").value= "";
+    document.getElementById("resultdown").value="";
  }
